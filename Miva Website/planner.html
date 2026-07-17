@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio - Academic Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1>Academic Planner</h1>
+        <p style="margin-bottom: 2rem;">Manage your academic tasks efficiently. Add tasks, mark them as completed, or delete them.</p>
+
+        <div class="planner-container">
+            
+            <div class="task-form">
+                <input type="text" id="taskInput" class="task-input" placeholder="Enter a new academic task...">
+                <button id="addTaskBtn" class="btn">Add Task</button>
+            </div>
+
+            <ul id="taskList" class="task-list">
+                <!-- Tasks will be dynamically injected here by JavaScript -->
+            </ul>
+            
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Miva Open University & Olatade Onibudo. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
